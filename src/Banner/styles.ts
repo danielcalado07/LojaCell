@@ -36,7 +36,7 @@ export const Banner = styled.div`
     @media (max-width: 500px) {
         margin-top: 90px;
     }
-    @media (max-width: 650px) {
+    @media (max-width: 690px) {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -51,7 +51,7 @@ export const DivTitulo = styled.div`
         margin-left: 20px; 
     }
 
-    @media (max-width: 650px) {
+    @media (max-width: 690px) {
         margin-left: 0px;
         margin-right: 0px;
         text-align: center;
@@ -127,7 +127,12 @@ export const ImagemElement03 = styled.img`
         margin-right: 20px;
     }
 
-    @media (max-width: 650px) {
+    @media (max-width: 690px) {
         width: 50%;
     }
+`;
+
+export const ImagemElement04 = styled.img`
+    padding: 20px;
+    width: 90%;
 `;

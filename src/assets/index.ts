@@ -22,6 +22,7 @@ import img04 from './img04.jpg';
 import cartao from './cartao.png';
 import dinheiro from './dinheiro.png';
 import iconInfo from './iconInfo.svg';
+import element04 from './element04.png';
 export {
     logoMarca,
     whatsapp,
@@ -47,4 +48,5 @@ export {
     cartao,
     dinheiro,
     iconInfo,
+    element04
 };

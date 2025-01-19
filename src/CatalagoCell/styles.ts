@@ -61,13 +61,25 @@ export const DivProduto = styled.div`
     align-items: center;
     transition: 0.3s;
     cursor: pointer;
+    justify-content: space-between;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    text-align: center;
+
+    @media (max-width: 500px) {
+    flex-direction: row;
+    }
 `;
 
 export const ImagemProduto = styled.img`
-    max-width: 100%;
-    height: 300px;
+    max-width: 250px;
+    height: 300px; 
     border-radius: 20px;
+
+    @media (max-width: 500px) {
+        max-width: 150px;
+        height: 200px;
+        margin-right: 10px;
+    }
 `;
 
 export const H2 = styled.h2`
@@ -78,6 +90,10 @@ export const H2 = styled.h2`
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
+
+    @media (max-width: 500px) {
+        font-size: 15px;
+    }
     
 `;
 
@@ -89,6 +105,11 @@ export const P2 = styled.p`
     margin: 0;
     margin-bottom: 20px;
     text-decoration: line-through;
+
+    @media (max-width: 500px) {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
 `;
 
 export const P = styled.p`
@@ -98,6 +119,11 @@ export const P = styled.p`
     color: #C51414;
     margin: 0;
     margin-bottom: 20px;
+
+    @media (max-width: 500px) {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
 `;
 
 export const P3 = styled.p`
@@ -112,6 +138,11 @@ export const P3 = styled.p`
 
     span {
         color: #C51414;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 12px;
+        margin-bottom: 10px;
     }
 `;
 
@@ -129,5 +160,10 @@ export const Button = styled.button`
 
     &:hover {
         background-color: rgb(50, 50, 50);
+    }
+
+    @media (max-width: 500px) {
+        font-size: 15px;
+        padding: 5px 20px;
     }
 `;
