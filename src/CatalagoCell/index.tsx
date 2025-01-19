@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { element03, escudo, fone, fone2, fone3, fone4 } from "../assets";
+import { element03, fone, fone2, fone3, fone4 } from "../assets";
 import { Button, Container, ContainerProduto, DivProduto, H1, H2, ImagemProduto, P, P2, P3 } from "./styles";
 
 function CatalogoCell() {

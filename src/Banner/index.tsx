@@ -1,4 +1,4 @@
-import { banner01, element01, element02, element03 } from "../assets";
+import {element01, element02, element03 } from "../assets";
 import { Banner, Button, Container, DivTitulo, H1, ImagemElement03, P } from './styles';
 
 function BannerComponent() {

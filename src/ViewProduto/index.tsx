@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { banner01, cartao, dinheiro, element03, fone, fone2, fone3, fone4, iconInfo, img01, img02, img03, img04 } from "../assets";
+import {cartao, dinheiro,iconInfo, img01, img02, img03, img04 } from "../assets";
 import NavBar from "../NavBar";
 import { Container, DivProduto, PagamentoAvista, PagamentoParcelado, H2, ImagemProduto, ImagemSeletor, P, P1, P3, Button, P2, ContainerProduto } from "./styles";
 
 function ViewProduto() {
   const [select, setSelect] = useState([1, 0, 0, 0]);
-  const [produto, setProduto] = useState({
+  const [produto] = useState({
     nome: '',
     descricao: '',
     preco: 0,
