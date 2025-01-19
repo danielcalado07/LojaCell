@@ -13,8 +13,8 @@ function CatalogoCell() {
             preco: 1000.00,
             imagem: fone,
             descricao: 'Produto 01 Produto 01 Produto 01 Produto 01',
-            parcelas: 6,
-            valorParcela: 166.67
+            parcelas: 10,
+            valorParcela: 1166.67
         },
         {
             id: 2,
@@ -31,8 +31,8 @@ function CatalogoCell() {
             preco: 1000.00,
             imagem: fone3,
             descricao: 'Produto 03 Produto 03 Produto 03 Produto 03',
-            parcelas: 6,
-            valorParcela: 166.67
+            parcelas: 10,
+            valorParcela: 1166.67
         },
         {
             id: 4,
@@ -56,7 +56,7 @@ function CatalogoCell() {
                 {produto.map((item) => (
                     <DivProduto key={item.id}>
                         <ImagemProduto src={item.imagem} alt={item.nome} />
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
                             <H2>{item.nome}</H2>
                             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', gap: '10px' }}>
                                 <P2>R$ {item.preco}</P2>

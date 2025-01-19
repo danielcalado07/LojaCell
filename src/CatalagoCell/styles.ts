@@ -61,12 +61,13 @@ export const DivProduto = styled.div`
     align-items: center;
     transition: 0.3s;
     cursor: pointer;
-    justify-content: space-between;
+    justify-content: center;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
     text-align: center;
 
     @media (max-width: 500px) {
     flex-direction: row;
+    padding: 5px;
     }
 `;
 
@@ -76,9 +77,9 @@ export const ImagemProduto = styled.img`
     border-radius: 20px;
 
     @media (max-width: 500px) {
-        max-width: 150px;
-        height: 200px;
-        margin-right: 10px;
+        max-width: 100px;
+        height: 150px;
+        margin-right: 5px;
     }
 `;
 
@@ -92,7 +93,9 @@ export const H2 = styled.h2`
     text-align: center;
 
     @media (max-width: 500px) {
-        font-size: 15px;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
     
 `;
@@ -107,8 +110,8 @@ export const P2 = styled.p`
     text-decoration: line-through;
 
     @media (max-width: 500px) {
-        font-size: 15px;
-        margin-bottom: 10px;
+        font-size: 13px;
+        margin-bottom: 5px;
     }
 `;
 
@@ -121,8 +124,8 @@ export const P = styled.p`
     margin-bottom: 20px;
 
     @media (max-width: 500px) {
-        font-size: 15px;
-        margin-bottom: 10px;
+        font-size: 13px;
+        margin-bottom: 5px;
     }
 `;
 
@@ -141,8 +144,9 @@ export const P3 = styled.p`
     }
 
     @media (max-width: 500px) {
-        font-size: 12px;
-        margin-bottom: 10px;
+        font-size: 10px;
+        margin-bottom: 0px;
+        margin-top: 5px;
     }
 `;
 
