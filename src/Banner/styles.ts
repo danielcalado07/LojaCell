@@ -42,17 +42,6 @@ export const Banner = styled.div`
         align-items: center;
         height: 65vh;  
     }
-
-    @media (max-width: 550px) {
-        height: 60vh;
-    }
-
-    @media (max-width: 450px) {
-        height: 55vh;
-    }
-
-    @media (max-width: 350px) {
-        height: 50vh;
 `;
 
 export const DivTitulo = styled.div`
