@@ -94,7 +94,7 @@ export const H1 = styled.h1`
 
     @media (max-width: 350px) {
         font-size: 30px;
-        margin-top: 35px;
+        margin-top: 45px;
     }
 `;
 
