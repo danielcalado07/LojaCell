@@ -180,6 +180,31 @@ export const P3 = styled.p`
     }
 `;
 
+export const P4 = styled.p`
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #C51414;
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    cursor: pointer;
+    margin-right: 150px;
+
+    @media (max-width: 1700px) {
+        margin-right: 50px;
+    }
+
+    @media (max-width: 1300px) {
+        margin-right: 10px;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 15px;
+    }
+`;
+
 export const Button = styled.button`
     background-color: #C51414;
     color: white;

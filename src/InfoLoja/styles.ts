@@ -12,6 +12,16 @@ export const Container = styled.div`
     background: radial-gradient(circle,rgb(65, 2, 2) 1%, #000000 40%);
 `;
 
+export const H3 = styled.h3`
+    color: #ffffff;
+    margin-top: 100px;
+    font-size: 20px;
+
+    @media (max-width: 500px) {
+        font-size: 15px;
+    }
+`;
+
 export const Container2 = styled.div`
     display: flex;
     justify-content: center;
@@ -28,6 +38,10 @@ export const Container2 = styled.div`
 
     @media (max-width: 800px) {
         grid-template-columns:  48% 48%;
+    }
+
+    @media (max-width: 500px) {
+        grid-template-columns:  100%;
     }
 `;
 
@@ -65,6 +79,24 @@ export const H2 = styled.h2`
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
+
+    @media (max-width: 1150px) {
+        font-size: 15px;
+    }
+`;
+
+export const Button = styled.button`
+    background-color: #000000;
+    color: white;
+    border: 2px solid #C51414;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
 
     @media (max-width: 1150px) {
         font-size: 15px;
