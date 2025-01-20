@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { banner01 } from "../assets";
+import { banner01 } from "../../assets";
 
 export const Container = styled.div`
     display: flex;

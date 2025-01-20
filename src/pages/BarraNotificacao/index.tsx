@@ -1,4 +1,4 @@
-import { definicoes, entrega, escudo, garantido } from "../assets";
+import { definicoes, entrega, escudo, garantido } from "../../assets";
 import { Container, DivNotificacao, H2, ImgNotificacao } from "./styles";
 
 function BarraNotificacao() {

@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { fone, fone2, fone3, fone4 } from "../assets";
+import { fone, fone2, fone3, fone4 } from "../../assets";
 import { Button, Container, ContainerProduto, DivDescricao, DivProduto, H1, H2, ImagemProduto, P, P2, P3, P4 } from "./styles";
 import { useState } from "react";
 

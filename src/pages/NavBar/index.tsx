@@ -1,5 +1,5 @@
 import { Container, ImagemIcon, ImagemLogo, TextoBar } from './styles';
-import { instagram, logoNeutra, whatsapp } from '../assets';
+import { instagram, logoNeutra, whatsapp } from '../../assets';
 
 function NavBar() {
   return (

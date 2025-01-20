@@ -1,15 +1,17 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import BannerComponent from "./Banner";
-import BarraNotificacao from "./BarraNotificacao";
-import CatalogoCell from "./CatalagoCell";
-import NavBar from "./NavBar";
-import ViewProduto from "./ViewProduto";
-import CatalogoAcessorios from "./CatalagoAcessorios";
-import InfoLoja from "./InfoLoja";
+import BannerComponent from "./pages/Banner";
+import BarraNotificacao from "./pages/BarraNotificacao";
+import CatalogoCell from "./pages/CatalagoCell";
+import NavBar from "./pages/NavBar";
+import ViewProduto from "./pages/ViewProduto";
+import CatalogoAcessorios from "./pages/CatalagoAcessorios";
+import InfoLoja from "./pages/InfoLoja";
+import ScrollToTop from "./components/scrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         {/* Página inicial */}
         <Route 

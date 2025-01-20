@@ -33,6 +33,7 @@ import configuracao from './configuracao.png';
 import vendas from './vendas.png';
 import escudo2 from './escudo2.png';
 import certificado from './certificado.png';
+import infoTecnica from './infoTecnica.svg';
 
 export {
     logoMarca,
@@ -69,5 +70,6 @@ export {
     configuracao,
     vendas,
     escudo2,
-    certificado
+    certificado,
+    infoTecnica
 };

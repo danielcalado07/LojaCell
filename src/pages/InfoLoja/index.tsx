@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { certificado, chaveInglesa, configuracao, diagnostico, escudo2, ferramentas, preventiva, suporteRemoto, suporteTecnico, vendas } from "../assets";
+import { certificado, chaveInglesa, configuracao, diagnostico, escudo2, ferramentas, preventiva, suporteRemoto, suporteTecnico, vendas } from "../../assets";
 import { Button, Container, Container2, DivNotificacao, H2, H3, ImgNotificacao } from "./styles";
 
 function InfoLoja() {
