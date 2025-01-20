@@ -23,6 +23,17 @@ import cartao from './cartao.png';
 import dinheiro from './dinheiro.png';
 import iconInfo from './iconInfo.svg';
 import element04 from './element04.png';
+import diagnostico from './vacinado.png';
+import ferramentas from './ferramentas.png';
+import chaveInglesa from './chaveInglesa.png';
+import preventiva from './preventivo.png';
+import suporteTecnico from './suporteTecnico.png';
+import suporteRemoto from './suporta.png';
+import configuracao from './configuracao.png';
+import vendas from './vendas.png';
+import escudo2 from './escudo2.png';
+import certificado from './certificado.png';
+
 export {
     logoMarca,
     whatsapp,
@@ -48,5 +59,15 @@ export {
     cartao,
     dinheiro,
     iconInfo,
-    element04
+    element04,
+    diagnostico,
+    ferramentas,
+    chaveInglesa,
+    preventiva,
+    suporteTecnico,
+    suporteRemoto,
+    configuracao,
+    vendas,
+    escudo2,
+    certificado
 };

@@ -3,7 +3,7 @@ import { fone, fone2, fone3, fone4, img01, img02, img03, img04 } from "../assets
 import { Button, Container, ContainerProduto, DivDescricao, DivProduto, H1, H2, ImagemProduto, P, P2, P3 } from "./styles";
 import { useState } from "react";
 
-function CatalogoCell() {
+function CatalogoAcessorios() {
     const navigate = useNavigate();
 
     const [produto] = useState([
@@ -43,49 +43,13 @@ function CatalogoCell() {
             parcelas: 6,
             valorParcela: 166.67
         },
-        {
-            id: 5,
-            nome: 'Produto 01 Produto 01 Produto 01 Produto 01',
-            preco: 1000.00,
-            imagem: fone,
-            descricao: 'Produto 01 Produto 01 Produto 01 Produto 01',
-            parcelas: 10,
-            valorParcela: 1166.67
-        },
-        {
-            id: 6,
-            nome: 'Produto 02 Produto 02 Produto 02 Produto 02',
-            preco: 1000.00,
-            imagem: fone2,
-            descricao: 'Produto 02 Produto 02 Produto 02 Produto 02',
-            parcelas: 6,
-            valorParcela: 166.67
-        },
-        {
-            id: 7,
-            nome: 'Produto 03',
-            preco: 1000.00,
-            imagem: fone3,
-            descricao: 'Produto 03 Produto 03 Produto 03 Produto 03',
-            parcelas: 10,
-            valorParcela: 1166.67
-        },
-        {
-            id: 8,
-            nome: 'Produto 04',
-            preco: 1000.00,
-            imagem: fone4,
-            descricao: 'Produto 04 Produto 04 Produto 04 Produto 04',
-            parcelas: 6,
-            valorParcela: 166.67
-        }
     ]);
 
 
     return (
         <>
             <Container>
-                <H1>Smartphones</H1>
+                <H1>Acessórios</H1>
             </Container>
 
             <ContainerProduto>
@@ -111,4 +75,4 @@ function CatalogoCell() {
     );
 }
 
-export default CatalogoCell;
+export default CatalogoAcessorios;

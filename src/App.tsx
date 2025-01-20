@@ -4,6 +4,8 @@ import BarraNotificacao from "./BarraNotificacao";
 import CatalogoCell from "./CatalagoCell";
 import NavBar from "./NavBar";
 import ViewProduto from "./ViewProduto";
+import CatalogoAcessorios from "./CatalagoAcessorios";
+import InfoLoja from "./InfoLoja";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
               <BannerComponent />
               <BarraNotificacao />
               <CatalogoCell />
+              <CatalogoAcessorios />
+              <InfoLoja />
             </>
           } 
         />
