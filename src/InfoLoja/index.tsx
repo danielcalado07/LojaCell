@@ -1,4 +1,4 @@
-import { certificado, chaveInglesa, configuracao, definicoes, diagnostico, entrega, escudo, escudo2, ferramentas, garantido, preventiva, suporteRemoto, suporteTecnico, vendas } from "../assets";
+import { certificado, chaveInglesa, configuracao, diagnostico, escudo2, ferramentas, preventiva, suporteRemoto, suporteTecnico, vendas } from "../assets";
 import { Container, Container2, DivNotificacao, H2, ImgNotificacao } from "./styles";
 
 function InfoLoja() {
