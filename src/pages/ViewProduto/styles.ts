@@ -20,11 +20,11 @@ export const Container = styled.div`
     }
 
     @media (max-width: 540px) {
-        width: 400px;
+        width: 300px;
     }
 
     @media (max-width: 350px) {
-        width: 340px;
+        width: 280px;
 
     }
     
@@ -53,6 +53,10 @@ export const DivProduto = styled.div`
     @media (max-width: 825px) {
         margin-top: 10px;
         height: auto;
+    }
+
+    @media (max-width: 350px) {
+        width: 300px;
     }
 `;
 
@@ -83,11 +87,12 @@ export const DivItens = styled.div`
     @media (max-width: 1000px) {
         flex-direction: row;
         margin-top: 10px;
+        margin-right: 0px;
+        gap: 10px;
     }
 
     @media (max-width: 400px) {
         margin-right: 0px;
-        gap: 10px;
     }
 `;
 
@@ -113,6 +118,12 @@ export const ImagemSeletor = styled.img<{ select?: string }>`
         width: 70px;
         max-width: 70px;
     }
+
+    @media (max-width: 350px) {
+        height: 40px;
+        width: 60px;
+        max-width: 60px;
+    }
 `;
 
 export const DivImagem = styled.div`
@@ -126,12 +137,15 @@ export const DivImagem = styled.div`
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 
     @media (max-width: 1200px) {
-        width: 400px;
+        width: 350px;
     }
 
     @media (max-width: 400px) {
         width: 300px;
     }
+
+    @media (max-width: 350px) {
+        width: 250px;
         
 `;
 
@@ -141,11 +155,15 @@ export const Imagem = styled.img`
     border-radius: 5px;
 
     @media (max-width: 1200px) {
-        max-width: 400px;
+        max-width: 380px;
     }
 
     @media (max-width: 400px) {
         max-width: 330px;
+    }
+
+    @media (max-width: 350px) {
+        max-width: 280px;
     }
 `;
 
