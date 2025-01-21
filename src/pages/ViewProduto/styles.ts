@@ -24,7 +24,7 @@ export const Container = styled.div`
     }
 
     @media (max-width: 350px) {
-        width: 280px;
+        width: 300px;
 
     }
     
@@ -142,6 +142,7 @@ export const DivImagem = styled.div`
 
     @media (max-width: 400px) {
         width: 300px;
+        height: 400px;
     }
 
     @media (max-width: 350px) {
@@ -163,7 +164,7 @@ export const Imagem = styled.img`
     }
 
     @media (max-width: 350px) {
-        max-width: 280px;
+        max-width: 300px;
     }
 `;
 
